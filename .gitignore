@@ -1,0 +1,7 @@
+# Compiled Python bytecode
+*.py[cod]
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/.idea/odoo-email.iml
