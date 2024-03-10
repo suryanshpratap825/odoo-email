@@ -6,10 +6,12 @@
     'sequence': 1,
     'summary': 'Email Fetch into the ODOO from Gmail',
     'description': 'Email Fetch in ODOOO',
-    'depends': ['base'],
+    'depends': ['base', 'crm'],
 
     'data': [
         'security/ir.model.access.csv',
+        'views/res_users_inherit_view.xml',
+
     ],
     'demo': [],
     'application': True,
