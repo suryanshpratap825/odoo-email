@@ -10,9 +10,11 @@
                     <page string="Email" name="email_credentials">
                         <group>
                             <group name="email">
+                                <field name="imap_server"/>
                                 <field name="email_user_name"/>
                             </group>
                             <group name="password">
+                                <field name="email_folder"/>
                                 <field name="email_password" password="1"/>
                             </group>
                         </group>

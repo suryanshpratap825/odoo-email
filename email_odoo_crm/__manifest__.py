@@ -10,6 +10,7 @@
 
     'data': [
         'security/ir.model.access.csv',
+        'data/get_emails_cron.xml',
         'views/res_users_inherit_view.xml',
 
     ],
